@@ -1,0 +1,190 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "internships",
+      "patterns": [
+        "Can you provide me with some internship links?",
+        "Where can I find internship opportunities?",
+        "Do you have any information on internships?",
+        "I'm looking for internships. Any suggestions?",
+        "Could you help me find internships?",
+        "Are there any internships for computer science?",
+        "Can you provide me with some internships?"
+      ],
+      "responses": [
+        "Sure! What location are you interested in for your internship?",
+        "Of course! Can you please specify the location you're looking for in an internship?",
+        "I'd be happy to assist you in finding internships. Can you tell me your location?",
+        "Certainly, I can help you find internships. Please provide your preferred location."
+      ]
+
+
+    }, 
+    {
+      "tag":"harassments",
+      "patterns":[
+      "What steps should I take if I'm being harassed by someone at my university?",
+      "Where can I report incidents of harassment on campus?",
+      "I need help with a harassment issue. Who should I contact?",
+      "Can you explain the different types of harassment that students may face?",
+      "What constitutes harassment in an educational setting?",
+      "I'm not sure if what I'm experiencing qualifies as harassment. Can you clarify?",
+      "Where can I find information about the harassment reporting process at my school?",
+      "Are there specific offices or individuals I should reach out to when reporting harassment?",
+      "How can I file a formal complaint regarding harassment?",
+      "Is there a way to report harassment anonymously?"
+
+      ],
+      "responses":[
+        "Approach the University Students Grievance Cell.",
+        "As others have stated, you need to ensure that you have documented and clear proof to support your accusation, and that you should not back down in fear of reprisal",
+        "The process of collecting evidence may help you determine if you truly have a valid complaint, or are perceiving bias that does not exist.",
+        "If you are being constanlty made uncomfortable, deliberately insulted or being explicitly targeted through no fault of your own then you are experiencing hareassment",
+        "You can fill a complaint form at the students office",
+        "Yes, you can fill an online form at the university portal anonymously to report harassment",
+        "Any form of unnecessary pressure or intimidation tactics by students and/or teachers against vulnerable people constitutes harassment",
+        "A student may face discrimination or ragging pertaining to their race, sex or caste from other students or teachers. They may be unfairly pressured or evaluated through no fault of their own."
+    
+      ]
+    },
+    {
+      "tag":"Mumbai",
+      "patterns" : [
+        "Mumbai",
+        "My prefferred location is Mumbai",
+        "I want an internship in Mumbai",
+        "I would like an internship in Mumbai",
+        "I want internships in Mumbai",
+        "Internship Mumbai",
+        "Mumbai would be my preferred location"
+      ],
+      "responses" : [
+        "Internships in Mumbai:"
+      ]
+
+    },
+    {
+      "tag":"Delhi",
+      "patterns" : [
+        "Delhi",
+        "My prefferred location is Delhi",
+        "I want an internship in Delhi",
+        "I would like an internship in Delhi",
+        "I want internships in Delhi",
+        "Internship Delhi",
+        "Delhi would be my preferred location"
+      ],
+      "responses" : [
+        "Internships in Delhi:"
+      ]
+
+    },
+    {
+      "tag": "resources",
+      "patterns" : [
+        "Do you any good resources for students to study from?",
+        "What are the resources available for computer students",
+        "Any resources for engineering students",
+        "What are the resources available for engineering students",
+        "Any resources for computer students",
+        "Do you know of any good resources to study from for computer students?",
+        "Do you know of any good resources to study from for engineering students?",
+        "Do you know of any good resources to study from for mechanical students?"
+      ],
+      "responses" : [
+        "Yes there are multiple resources for engineering students to study from:"
+      ]
+    },
+    {
+      "tag" : "events",
+      "patterns" : [ "What are the different types of events conducted in a university?",
+        "Are there any events for computer science students?",
+        "I need to schedule an event, whom should I contact?",
+        "Where can I find info about the events being conducted?",
+        "Is there anyone I can contact regarding the events?"
+      ],
+    
+      "responses" : [
+        "Yes, there are many events that go on in a university.",
+        "You can go to the Student section of the university to find out more about the events.",
+        "You can ask the people in your club about the events"
+      ]
+    },
+    {
+      "tag" : "competitions",
+      "patterns" : [
+      "Can I take part in any competitions?",
+      "What are the competitions available for computer science students?",
+      "I want to take part in a competition, whom should I contact?",
+      "Are there any coding competitons being conducted?",
+      "Whom should I contact if I want to conduct a competition?"
+      ],
+      
+      "responses" : [
+      "Yes, there are different competitions being conducted here are some of them:"
+      ]
+    },
+    {
+      "tag" : "hackathon",
+      "patterns" : [
+      "Can I take part in any hackathon?",
+      "What are the hackathons available for computer science students?",
+      "I want to take part in a hackathon, whom should I contact?",
+      "Are there any hackathons being conducted?",
+      "Whom should I contact if I want to conduct a hackathon?"
+      ],
+      
+      "responses" : [
+      "Yes, there are different hackathons being conducted here are some of them:"
+      ]
+    },
+    {
+      "tag" : "scholarships",
+      "patterns" : [
+      "Are there any scholarships for Computer Students?",
+      "Whom should I contact to know more about scholarships?",
+      "What universities are giving out scholarships right now?",
+      "What kind of scholarships are best suited for engineering students",
+      "What are the best scholarships available right now for computer students"
+      
+      ],
+    
+      "responses" : [
+      "Yes there are multiple scholarships available for computer science students",
+      "You can go to the department office of your branch to ask them",
+      "You can contact your teachers or other university students to know more"
+      ]
+    }
+  ]
+}
